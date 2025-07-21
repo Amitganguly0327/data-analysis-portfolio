@@ -16,10 +16,10 @@ I learnt text analysis using Python through the featured tutorials by experts on
   - Potential areas for improvement: I can perform statistical analysis for a more reliable determination of which themes appear significantly more likely in one puzzle group. As an alternative to statistical analysis, I could try predicting puzzle ratings based on their theme words using a LLM and make a decision based on the R-squared value. I should also find other strong determiners of puzzle difficulty rating.
 
 ### AI Hallucinations in Legal Matters
-  - Context: I applied advanced techniques in text analysis to check whether certain AI models have been more associated with certain leading outcomes than others.
+  - Context: I applied advanced techniques in text analysis to check whether any model has caused their attorneys to face an outcome more often than other models.
   - Data: [Damien Charlotin’s AI Hallucination Cases database](https://www.damiencharlotin.com/hallucinations/) 
-  - Methodology: I used gensim's LDA topic modeling to identify leading outcomes for attorneys caught for unverified AI use, then openai for automatically classifying outcomes into the leading outcomes, finally creating a bar graph of outcomes grouped by AI models. I also used pyLDAvis for creating an interactive dashboard for the gensim output.    
+  - Methodology: I used gensim's LDA topic modeling to identify leading outcomes for attorneys caught for unverified AI use, then openai for automatically classifying outcomes into the leading outcomes, finally creating a bar graph of the leading outcomes grouped by AI models for a sample of rows. I also used pyLDAvis for creating an interactive dashboard for the gensim output.    
   - Results: Based on the resulting graph, it seems Claude is especially associated with sanctions while other models are fairly equally associated with other kinds of leading outcomes.
-  - Conclusion: Since data on AI models and associated outcomes was highly limited, it is difficult to tell if any model is more associated with an outcome than others.
-  - Potential areas for improvement: I should further search for data sources with a higher represented of identified AI models. I should also use statistical analysis to ensure that certain AI models have a greater association to certain outcomes than others. 
+  - Conclusion: Since the data on AI models and associated outcomes was highly limited (only 2 rows could be sampled for some AI models), it is difficult to tell if any model caused their attorneys to face an outcome more often than other models.
+  - Potential areas for improvement: I should further search for data sources with a higher represented of identified AI models. I should also use statistical analysis to ensure that any model caused their attorneys to face an outcome more often than other models.
 
